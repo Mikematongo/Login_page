@@ -1,0 +1,95 @@
+@import url('https://fonts.googleleapis.com/css2?family=poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #1af3e1;
+    padding: 15px 20px;
+}
+
+.wrapper{
+    background: #f0f4f5;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,2);
+    background: #05b5c2;
+
+}
+
+.wrapper .title{
+    font-size: 34px;
+    font-weight: 600;
+    margin: 0 0 40px 0;
+    text-align: center;
+}
+
+.wrapper form .input-box{
+    width: 100%;
+    height: 55px;
+    margin-bottom: 30px;
+}
+
+.wrapper form .remember-forgot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -8px 0 15px 0;
+}
+
+.wrapper form .remember{
+    display: flex;
+    font-size: 13px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.wrapper form .remember input{
+    margin-right: 5px;
+}
+
+.wrapper form .forgot{
+    font-size: 13px;
+    font-weight: 500px;
+
+}
+
+.wrapper form .input-box input{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #ccc;
+    padding: 20px;
+    font-size: 15px;
+    transition: all 0.3s eases;
+}
+.wrapper form .input-box input:hover,
+.wrapper form .input-box input:valid{
+    transform: scale(1.05);
+}
+.wrapper form .forgot a{
+    text-decoration: none;
+    color: rgb(255, 0, 34);
+}
+.wrapper form .forgot a:hover{
+    text-decoration: underline;
+}
+.wrapper form .button input[type="submit"]{
+    padding: 0;
+    font-size: 18px;
+    font-weight: 500;
+    background: blue;
+    color: #f0f4f5;
+    border: none;
+    transform: none;
+}
+
+
