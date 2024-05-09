@@ -1,1 +1,11 @@
+//This is a log in page 
+//Created by Mike Matongo
 
+rectangle User
+-->circle Login
+-->rectangle Dashboard
+  -->triangle Settings
+  -->rectangle Logout
+
+  circle Search
+  -->rectangle Results
